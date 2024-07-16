@@ -15,6 +15,10 @@ sites:
     check: "tcp-ping"
     url: 78.47.239.19
     port: 53
+  - name: Service - database
+    check: "tcp-ping"
+    url: 78.47.239.19
+    port: 3306
 #  - name: IPv6 test
 #    url: forwardemail.net
 #    port: 80
