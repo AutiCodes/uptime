@@ -11,6 +11,10 @@ sites:
     url: https://trmc.nl
   - name: T.R.M.C Club Manager
     url: https://club.trmc.nl
+  - name: Service - DNS
+    check: "tcp-ping"
+    url: 78.47.239.19
+    port: 53
 #  - name: IPv6 test
 #    url: forwardemail.net
 #    port: 80
