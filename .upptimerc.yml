@@ -11,17 +11,19 @@ sites:
     url: https://trmc.nl
   - name: T.R.M.C Club Manager
     url: https://club.trmc.nl
-  - name: Service - DNS
+  - name: Domain Name Server
     check: "tcp-ping"
     url: 78.47.239.19
     port: 53
-  - name: Service - Email inbound
+  - name: Email inbound
+    check: "tcp-ping"
     url: 78.47.239.19
     expectedStatusCodes:
       - 200
       - 406
     port: 993
-  - name: Service - Email outbound
+  - name: Email outbound
+    check: "tcp-ping"
     url: 78.47.239.19
     expectedStatusCodes:
       - 200
