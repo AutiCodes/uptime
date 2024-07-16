@@ -5,6 +5,8 @@ repo: uptime # The name of this repository
 sites:
   - name: AutiCodes.nl
     url: https://auticodes.nl
+  - name: AllDayTechAndGaming blog
+    url: https://alldaytechandgaming.nl
   - name: T.R.M.C Wordpress
     url: https://trmc.nl
   - name: T.R.M.C Club Manager
@@ -21,6 +23,7 @@ status-website:
   #cname: demo.upptime.js.org
   baseUrl: /uptime
   logoUrl: https://avatars.githubusercontent.com/u/31496522?v=4&size=64
+  favicon: https://avatars.githubusercontent.com/u/31496522?v=4&
   name: Uptime
   introTitle: "The main web services uptime page for AutiCodes"
   introMessage: t.b.c
