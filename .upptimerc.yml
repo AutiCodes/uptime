@@ -18,16 +18,10 @@ sites:
   - name: Email inbound
     check: "tcp-ping"
     url: 78.47.239.19
-    expectedStatusCodes:
-      - 200
-      - 406
     port: 993
   - name: Email outbound
     check: "tcp-ping"
     url: 78.47.239.19
-    expectedStatusCodes:
-      - 200
-      - 406    
     port: 465
 #  - name: IPv6 test
 #    url: forwardemail.net
