@@ -23,15 +23,8 @@ sites:
     check: "tcp-ping"
     url: 78.47.239.19
     port: 465
-#  - name: IPv6 test
-#    url: forwardemail.net
-#    port: 80
-#    check: "tcp-ping"
-#    ipv6: true
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   #cname: demo.upptime.js.org
   baseUrl: /uptime
   logoUrl: https://avatars.githubusercontent.com/u/31496522?v=4&size=64
@@ -44,8 +37,7 @@ status-website:
       href: /uptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
+    - title: Auticodes.nl
+      href: https://auticodes.nl    
   theme: night
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
