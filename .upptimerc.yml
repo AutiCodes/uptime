@@ -15,7 +15,7 @@ sites:
     check: "tcp-ping"
     url: 78.47.239.19
     port: 53
-  - name: Test downtime notification
+  - name: Test downtime notification 2
     url: https://www.dweiojh34w2rjwloi.nl
 #  - name: IPv6 test
 #    url: forwardemail.net
